@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Login"
+    android:background="@color/gray">
+
+
+        <TextView
+            android:id="@+id/nombre_app2"
+            android:layout_width="242dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="154dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="635dp"
+            android:fontFamily="@font/tiro_devanagari_hindi"
+            android:text="@string/NombreAplicacion"
+            android:textAlignment="textStart"
+            android:textColor="@color/orange"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.173" />
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="134dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="277dp"
+            android:layout_marginBottom="610dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.131"
+            app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/texto_login"
+        android:layout_width="294dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/texto_login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <ImageView
+        android:id="@+id/logitos_login"
+        android:layout_width="63dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        app:srcCompat="@drawable/iconos" />
+
+    <EditText
+        android:id="@+id/usuario_login"
+        android:layout_width="287dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/style_edi_text"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="267dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="393dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="262dp"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="@font/tiro_devanagari_hindi"
+            android:padding="0dp"
+            android:text="@string/btn_login"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.424"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.473"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1.5dp" />
+
+        <TextView
+            android:id="@+id/texto2_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="486dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="221dp"
+            android:fontFamily="@font/tiro_devanagari_hindi"
+            android:text="@string/recupera_contraseña_login"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.454" />
+
+
+    <EditText
+        android:id="@+id/pasword_login"
+        android:layout_width="287dp"
+        android:layout_height="55dp"
+
+        android:background="@drawable/style_edi_text"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoogle"
+        android:layout_width="352dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="80dp"
+
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+
+        android:text="@string/google_login"
+
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:cornerRadius="12dp"
+        app:icon="@drawable/ico_google1"
+        app:iconGravity="textStart"
+
+        app:iconSize="48dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto2_login"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/orange"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/texto3_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/no_tienes_cuenta_home"
+        android:textColor="@color/black"
+
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registrate_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle" />
+
+    <TextView
+        android:id="@+id/registrate_login"
+        android:layout_width="111dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:paddingVertical="2dp"
+        android:text="@string/textoRegistrate"
+        android:textColor="@color/orange"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintVertical_bias="0.794" />
+    " />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

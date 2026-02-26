@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">proyectoNativas</string>
+    <string name="nombre">Brayan Cuervo</string>
+    <string name="NombreAplicacion">Moovit2</string>
+    <string name="textoHome">Inicia una nueva aventura con Moovit2 y descubre una nueva forma de ver el mundo</string>
+    <string name="BotonHome">Comienza</string>
+    <string name="textoRegistrate">Registrate</string>
+    <string name="recupera_contraseña_login">Recupera Tu Contraseña</string>
+    <string name="google_login">Ingresa con Google</string>
+    <string name="texto_login">La aventura está por iniciar, porfavor inicia sesión</string>
+    <string name="btn_login">Ingresar</string>
+    <string name="no_tienes_cuenta_home">No tienes cuenta?</string>
+
+</resources>

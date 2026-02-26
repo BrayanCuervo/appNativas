@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre">Brayan Cuervo</string>
+    <string name="NombreAplicacion">Moovit2</string>
+    <string name="textoHome">Inicia una nueva aventura con Moovit2 y descubre una nueva forma de ver el mundo</string>
+    <string name="BotonHome">Comienza</string>
+    <string name="textoRegistrate">Registrate</string>
+</resources>
