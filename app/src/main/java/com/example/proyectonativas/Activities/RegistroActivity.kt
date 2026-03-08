@@ -9,14 +9,14 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.proyectonativas.R
 
-class Login : AppCompatActivity() {
+class RegistroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
-        val btn1 = findViewById<Button>(R.id.registrate_login)
-        btn1.setOnClickListener {
-            startActivity(Intent(this, RegistroActivity::class.java))
+        setContentView(R.layout.activity_registro)
+        val btn2 = findViewById<Button>(R.id.login_registro)
+        btn2.setOnClickListener {
+            startActivity(Intent(this, Login::class.java))
             finish()
         }
     }

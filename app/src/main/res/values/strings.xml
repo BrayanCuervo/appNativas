@@ -10,5 +10,10 @@
     <string name="texto_login">La aventura está por iniciar, porfavor inicia sesión</string>
     <string name="btn_login">Ingresar</string>
     <string name="no_tienes_cuenta_home">No tienes cuenta?</string>
-
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="texto_registro">Crea tu cuenta para comenzar</string>
+    <string name="terminos_registro">Acepto los términos y condiciones</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="ya_tienes_cuenta_registro">¿Ya tienes cuenta?</string>
+    <string name="inicia_sesion_registro">Inicia sesión</string>
 </resources>

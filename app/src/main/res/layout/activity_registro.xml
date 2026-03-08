@@ -13,17 +13,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="10dp">
 
         <ImageView
-            android:id="@+id/logo2"
+            android:id="@+id/logo_registro"
             android:layout_width="134dp"
             android:layout_height="121dp"
-            android:layout_marginRight="60dp"
+            android:layout_marginRight="40dp"
             app:srcCompat="@drawable/logo"/>
 
         <TextView
-            android:id="@+id/nombre_app2"
+            android:id="@+id/nombre_app_registro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/NombreAplicacion"
@@ -35,109 +35,118 @@
 
 
     <TextView
-        android:id="@+id/texto_login"
+        android:id="@+id/texto_registro"
         android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:text="@string/texto_login"
+        android:text="@string/texto_registro"
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:textAlignment="center"
         android:textSize="18sp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="15dp"
         android:textColor="@color/black"/>
-
 
 
     <LinearLayout
         android:layout_width="330dp"
-        android:layout_height="129dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
         android:gravity="center_vertical"
-        android:layout_marginBottom="20dp">
+        android:layout_marginBottom="10dp">
 
-        <ImageView
-            android:layout_width="63dp"
-            android:layout_height="129dp"
-            app:srcCompat="@drawable/iconos"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_vertical">
 
+
             <EditText
-                android:id="@+id/usuario_login"
+                android:id="@+id/nombres_registro"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/style_edi_text"
                 android:paddingStart="15dp"
-                android:hint="Usuario"
-                android:textColorHint=" @color/black"/>
+                android:hint="Nombres"
+                android:textColorHint="@color/black"/>
+
+
 
             <EditText
-                android:id="@+id/password_login"
+                android:id="@+id/apellidos_registro"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:hint="Apellidos"
+                android:textColorHint="@color/black"/>
+
+
+            <EditText
+                android:id="@+id/correo_registro"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/style_edi_text"
+                android:inputType="textEmailAddress"
+                android:paddingStart="15dp"
+                android:hint="Correo"
+                android:textColorHint="@color/black"/>
+
+
+            <EditText
+                android:id="@+id/password_registro"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/style_edi_text"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:hint="Contraseña"
+                android:textColorHint="@color/black"/>
+
+
+            <EditText
+                android:id="@+id/password2_registro"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginStart="10dp"
                 android:background="@drawable/style_edi_text"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
-                android:hint="Contraseña"
+                android:hint="Repetir Contraseña"
                 android:textColorHint="@color/black"/>
+
         </LinearLayout>
     </LinearLayout>
 
 
+    <CheckBox
+        android:id="@+id/check_terminos_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/terminos_registro"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_registro"
         android:layout_width="260dp"
         android:layout_height="65dp"
-        android:text="@string/btn_login"
+        android:text="@string/btn_registro"
         android:fontFamily="@font/tiro_devanagari_hindi"
-        android:layout_marginTop="20dp"
         android:textSize="30dp"
         android:backgroundTint="@color/orange"
         app:strokeColor="@color/white"
-        app:strokeWidth="1.5dp"
-        />
-
-    <TextView
-        android:id="@+id/texto2_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/recupera_contraseña_login"
-        android:fontFamily="@font/tiro_devanagari_hindi"
-        android:textSize="16sp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:textColor="@color/black"/>
-
-
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnGoogle"
-        android:layout_width="352dp"
-        android:layout_height="64dp"
-        android:backgroundTint="@color/white"
-        android:fontFamily="@font/tiro_devanagari_hindi"
-        android:paddingStart="2dp"
-        android:paddingEnd="2dp"
-        android:text="@string/google_login"
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="30dp"
-        app:cornerRadius="12dp"
-        app:icon="@drawable/ico_google1"
-        app:iconGravity="textStart"
-        app:iconSize="48dp"
-        app:iconTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:strokeColor="@color/orange"
-        app:strokeWidth="1dp" />
+        app:strokeWidth="1.5dp"/>
 
 
     <LinearLayout
@@ -147,7 +156,7 @@
         android:layout_marginTop="15dp">
 
         <TextView
-            android:text="@string/no_tienes_cuenta_home"
+            android:text="@string/ya_tienes_cuenta_registro"
             android:textSize="16sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -155,16 +164,15 @@
             android:textColor="@color/black"/>
 
         <Button
-            android:id="@+id/registrate_login"
-            android:text="@string/textoRegistrate"
+            android:id="@+id/login_registro"
+            android:text="@string/inicia_sesion_registro"
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:textColor="@color/orange"
-            android:textSize="16sp"
             android:backgroundTint="@color/gray"
+            android:textSize="16sp"
             android:layout_marginStart="5dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 
 </LinearLayout>

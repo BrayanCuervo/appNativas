@@ -1,38 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.SplashActivity"
-    android:background="@color/gray">
-
+    android:background="@color/gray"
+    android:gravity="center"
+    android:orientation="vertical">
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
     <ImageView
         android:id="@+id/Logo"
         android:layout_width="281dp"
-        android:layout_height="383dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408"
+        android:layout_height="300dp"
         app:srcCompat="@drawable/logo" />
-
-    <TextView
-        android:id="@+id/Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/tiro_devanagari_hindi"
-        android:text="@string/nombre"
-        android:textColor="@color/orange"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
-
     <TextView
         android:id="@+id/NameAplication"
         android:layout_width="316dp"
@@ -43,10 +28,14 @@
         android:textAlignment="center"
         android:textColor="@color/orange"
         android:textSize="45sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Logo"
-        app:layout_constraintVertical_bias="0.046" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginBottom="200dp"/>
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/nombre"
+        android:textColor="@color/orange"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right" />
+</LinearLayout>
