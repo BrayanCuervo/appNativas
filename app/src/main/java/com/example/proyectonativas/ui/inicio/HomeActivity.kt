@@ -1,14 +1,12 @@
-package com.example.proyectonativas.Activities
+package com.example.proyectonativas.ui.inicio
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.proyectonativas.R
-import kotlin.jvm.java
+import com.example.proyectonativas.ui.auth.Login
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
