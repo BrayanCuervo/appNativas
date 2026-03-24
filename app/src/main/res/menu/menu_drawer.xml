@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
 
+        android:title="@string/inicio"
+        android:icon="@android:drawable/ic_menu_view" />
+
+    <item
+
+        android:title="@string/productos"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <item
+
+        android:title="@string/perfil"
+        android:icon="@android:drawable/ic_menu_myplaces" />
+
+    <item
+
+        android:title="@string/ajustes"
+        android:icon="@drawable/ic_settings" />
 
 
 </menu>
