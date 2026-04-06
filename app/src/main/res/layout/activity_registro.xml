@@ -82,7 +82,7 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
-                        android:hint="Nombres"
+                        android:hint="@string/nombres"
                         android:textColorHint="@color/black"/>
 
 
@@ -95,7 +95,7 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
-                        android:hint="Apellidos"
+                        android:hint="@string/apellidos"
                         android:textColorHint="@color/black"/>
 
 
@@ -108,7 +108,7 @@
                         android:background="@drawable/style_edi_text"
                         android:inputType="textEmailAddress"
                         android:paddingStart="15dp"
-                        android:hint="Correo"
+                        android:hint="@string/correo"
                         android:textColorHint="@color/black"/>
 
 
@@ -121,7 +121,7 @@
                         android:background="@drawable/style_edi_text"
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
-                        android:hint="Contraseña"
+                        android:hint="@string/contrase_a"
                         android:textColorHint="@color/black"/>
 
 
@@ -133,7 +133,7 @@
                         android:background="@drawable/style_edi_text"
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
-                        android:hint="Repetir Contraseña"
+                        android:hint="@string/repetir_contrase_a"
                         android:textColorHint="@color/black"/>
 
                 </LinearLayout>

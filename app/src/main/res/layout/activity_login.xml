@@ -86,7 +86,7 @@
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
-                        android:hint="Usuario"
+                        android:hint="@string/usuario"
                         android:textColorHint="@color/black"/>
 
                     <EditText
@@ -97,7 +97,7 @@
                         android:background="@drawable/style_edi_text"
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
-                        android:hint="Contraseña"
+                        android:hint="@string/contrase_a"
                         android:textColorHint="@color/black"/>
                 </LinearLayout>
             </LinearLayout>
