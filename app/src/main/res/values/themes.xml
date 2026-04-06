@@ -5,5 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.ProyectoNativas" parent="Base.Theme.ProyectoNativas" />
+    <style name="Theme.ProyectoNativas" parent="Base.Theme.ProyectoNativas">
+        <item name="colorPrimary" >@color/gray</item>
+    </style>
 </resources>

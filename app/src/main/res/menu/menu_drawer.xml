@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-
+        android:id="@+id/nav_lat_Inicio"
         android:title="@string/inicio"
         android:icon="@android:drawable/ic_menu_view" />
 
     <item
-
-        android:title="@string/productos"
+        android:id="@+id/nav_lat_admin"
+        android:title="@string/admin"
         android:icon="@android:drawable/ic_menu_agenda" />
 
     <item
-
-        android:title="@string/perfil"
+        android:id="@+id/nav_lat_favoritos"
+        android:title="@string/favoritos"
         android:icon="@android:drawable/ic_menu_myplaces" />
 
     <item
-
-        android:title="@string/ajustes"
+        android:id="@+id/nav_lat_usuarios"
+        android:title="@string/usuarios"
         android:icon="@drawable/ic_settings" />
 
 

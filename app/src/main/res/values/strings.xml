@@ -22,4 +22,14 @@
     <string name="perfil">Perfil\n</string>
     <string name="ajustes">Ajustes</string>
     <string name="TuPerfil">Este es tu perfil :)\n</string>
+    <string name="navigation_drawer_open">menu abierto</string>
+    <string name="navigation_drawer_close">menu cerrado\n</string>
+    <string name="admin">Admin</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="usuarios">Usuarios</string>
+    <string name="carrito">CARRITO</string>
+    <string name="catalogo">CATALOGO</string>
+    <string name="home">HOME</string>
+    <string name="imagen_de_un_prducto">Imagen de un prducto</string>
+    <string name="agregar_producto">Agregar producto</string>
 </resources>
