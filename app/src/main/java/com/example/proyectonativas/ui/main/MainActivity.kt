@@ -9,6 +9,7 @@ import com.example.proyectonativas.R
 import com.example.proyectonativas.ui.main.admin.AdminFragment
 import com.example.proyectonativas.ui.main.admin.UsuariosFragment
 import com.example.proyectonativas.ui.main.perfil.AjustesFragment
+import com.example.proyectonativas.ui.main.perfil.EditarPefilFragment
 import com.example.proyectonativas.ui.main.perfil.PerfilFragment
 import com.example.proyectonativas.ui.main.productos.FavoritosFragment
 import com.example.proyectonativas.ui.main.productos.HomeFragment
@@ -50,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId){
                 R.id.nav_home -> cargarFragment(HomeFragment())
                 R.id.nav_bottom_productos -> cargarFragment(ProductosFragment())
-                R.id.nav_bottom_perfil -> cargarFragment(PerfilFragment())
+                R.id.nav_bottom_perfil -> cargarFragment(EditarPefilFragment())
                 R.id.nav_bottom_ajustes -> cargarFragment(AjustesFragment())
             }
             true

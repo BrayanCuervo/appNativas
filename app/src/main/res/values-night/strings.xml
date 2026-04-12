@@ -39,4 +39,7 @@
     <string name="apellidos">Apellidos</string>
     <string name="correo">Correo</string>
     <string name="repetir_contrase_a">Repetir Contraseña</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="editar_perfil">Editar Perfil</string>
 </resources>

@@ -170,6 +170,7 @@
                 android:layout_marginTop="15dp">
 
                 <TextView
+                    android:id="@+id/tienes_cuenta_registro"
                     android:text="@string/ya_tienes_cuenta_registro"
                     android:textSize="16sp"
                     android:layout_width="wrap_content"
