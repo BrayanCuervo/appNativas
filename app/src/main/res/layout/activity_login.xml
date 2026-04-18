@@ -87,10 +87,11 @@
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
                         android:hint="@string/usuario"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
                     <EditText
-                        android:id="@+id/password_login"
+                        android:id="@+id/contrasena_login"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
                         android:layout_marginStart="10dp"
@@ -98,7 +99,8 @@
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
                         android:hint="@string/contrase_a"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -116,7 +118,7 @@
 
 
             <TextView
-                android:id="@+id/texto2_login"
+                android:id="@+id/recuperar_contrasena_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/recupera_contraseña_login"
@@ -126,8 +128,7 @@
                 android:layout_marginBottom="20dp"
                 android:textColor="@color/black"/>
 
-
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btnGoogle"
                 android:layout_width="352dp"
                 android:layout_height="64dp"
@@ -139,14 +140,22 @@
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:textSize="30dp"
-                app:cornerRadius="12dp"
                 app:icon="@drawable/ico_google1"
                 app:iconGravity="textStart"
                 app:iconSize="48dp"
                 app:iconTint="@null"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:strokeColor="@color/orange"
                 app:strokeWidth="1dp" />
+            <TextView
+                android:id="@+id/huella"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingresa_con_huella"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"/>
 
 
             <LinearLayout

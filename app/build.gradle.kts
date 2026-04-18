@@ -67,4 +67,12 @@ dependencies {
     implementation(libs.supabase.auth)
     implementation(libs.ktor.client.android)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.google.id)
+    implementation(libs.credential.manager)
+    implementation(libs.credential.manager.play)
+
+    implementation(libs.google.id)
+    implementation(libs.credential.manager)
+    implementation(libs.credential.manager.play)
+    implementation(libs.biometric)
 }

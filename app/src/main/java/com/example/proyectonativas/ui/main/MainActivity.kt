@@ -1,11 +1,14 @@
 package com.example.proyectonativas.ui.main
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.proyectonativas.R
+import com.example.proyectonativas.ui.auth.Login
+import com.example.proyectonativas.ui.auth.RegistroActivity
 import com.example.proyectonativas.ui.main.admin.AdminFragment
 import com.example.proyectonativas.ui.main.admin.UsuariosFragment
 import com.example.proyectonativas.ui.main.perfil.AjustesFragment
@@ -58,10 +61,18 @@ class MainActivity : AppCompatActivity() {
         }
         navView.setNavigationItemSelectedListener { item ->
             when (item.itemId){
+
+
+
                 R.id.nav_lat_Inicio -> cargarFragment(HomeFragment())
                 R.id.nav_lat_admin -> cargarFragment(AdminFragment())
                 R.id.nav_lat_usuarios -> cargarFragment(UsuariosFragment())
                 R.id.nav_lat_favoritos -> cargarFragment(FavoritosFragment())
+                //cierra el menu lateral y abre el menu de incio
+                R.id.nav_lat_Inicio_sesion -> {
+                    startActivity(Intent(this, Login::class.java))
+                    drawerLayout.closeDrawers()
+                }
             }
             true
         }

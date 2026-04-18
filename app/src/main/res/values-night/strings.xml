@@ -42,4 +42,6 @@
     <string name="cancelar">Cancelar</string>
     <string name="guardar_cambios">Guardar cambios</string>
     <string name="editar_perfil">Editar Perfil</string>
+    <string name="ingresa_con_huella">Ingresa con tu huella</string>
+    <string name="inicio_de_sesion">Inicio de sesion</string>
 </resources>

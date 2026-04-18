@@ -83,7 +83,8 @@
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
                         android:hint="@string/nombres"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
 
 
@@ -96,7 +97,8 @@
                         android:background="@drawable/style_edi_text"
                         android:paddingStart="15dp"
                         android:hint="@string/apellidos"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
 
                     <EditText
@@ -109,7 +111,8 @@
                         android:inputType="textEmailAddress"
                         android:paddingStart="15dp"
                         android:hint="@string/correo"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
 
                     <EditText
@@ -122,7 +125,8 @@
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
                         android:hint="@string/contrase_a"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
 
                     <EditText
@@ -134,7 +138,8 @@
                         android:inputType="textPassword"
                         android:paddingStart="15dp"
                         android:hint="@string/repetir_contrase_a"
-                        android:textColorHint="@color/black"/>
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"/>
 
                 </LinearLayout>
             </LinearLayout>
