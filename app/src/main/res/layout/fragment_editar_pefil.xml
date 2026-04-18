@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="25dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editar_perfil"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+                android:textColor="@color/orange"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="25dp"/>
+
+            <EditText
+                android:id="@+id/et_nombres_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:hint="@string/nombres"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/et_apellidos_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/style_edi_text"
+                android:paddingStart="15dp"
+                android:hint="@string/apellidos"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/et_correo_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/style_edi_text"
+                android:inputType="textEmailAddress"
+                android:paddingStart="15dp"
+                android:hint="@string/correo"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/et_contrasena_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/style_edi_text"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:hint="@string/contrase_a"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/et_recontrasena_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/style_edi_text"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:hint="@string/repetir_contrase_a"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btn_guardar_perfil"
+                android:layout_width="260dp"
+                android:layout_height="65dp"
+                android:text="@string/guardar_cambios"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+                android:textSize="22sp"
+                android:backgroundTint="@color/orange"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1.5dp"/>
+
+            <Button
+                android:id="@+id/et_cancelar_perfil"
+                android:text="@string/cancelar"
+                android:fontFamily="@font/tiro_devanagari_hindi"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:backgroundTint="@color/gray"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
