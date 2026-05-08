@@ -36,7 +36,7 @@ class RegistroActivity : AppCompatActivity(){
     @Serializable
     data class Usuario(
         val id: String,
-        val nombre:String,
+        val nombres:String,
         val apellidos: String
 
         )

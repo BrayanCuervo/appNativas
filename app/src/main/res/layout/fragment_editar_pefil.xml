@@ -35,6 +35,40 @@
                 android:textStyle="bold"
                 android:layout_marginBottom="25dp"/>
 
+            <!-- Foto redonda con ícono de cámara -->
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="24dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:cardCornerRadius="60dp"
+                    app:cardElevation="6dp">
+
+                    <ImageView
+                        android:id="@+id/iv_editar_foto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_launcher_round"
+                        android:contentDescription="Foto de perfil" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Ícono de cámara sobre la foto -->
+                <ImageView
+                    android:id="@+id/iv_camara_icon"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="bottom|end"
+                    android:src="@android:drawable/ic_menu_camera"
+                    android:padding="6dp"
+                    android:contentDescription="@string/cambiar_foto" />
+
+            </FrameLayout>
+
             <EditText
                 android:id="@+id/et_nombres_perfil"
                 android:layout_width="match_parent"
